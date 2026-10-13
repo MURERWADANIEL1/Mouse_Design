@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/murerwa-daniel/.local/share/kicad/10.0/3rdparty//plugins/com_github_sagarHackeD_PlaceBySchKiCad/__init__.py", line 10, in <module>
+    from .place_by_sch import PlaceBySch
+  File "/home/murerwa-daniel/.local/share/kicad/10.0/3rdparty//plugins/com_github_sagarHackeD_PlaceBySchKiCad/place_by_sch.py", line 5, in <module>
+    import wx
+  File "/usr/lib/python3/dist-packages/wx/__init__.py", line 12, in <module>
+    __version__ = wx.__version__.VERSION_STRING
+                  ^^^^^^^^^^^^^^
+AttributeError: partially initialized module 'wx' has no attribute '__version__' (most likely due to a circular import)
+
+
