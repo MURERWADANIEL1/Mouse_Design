@@ -1,2 +1,0 @@
-Hello World
-partially initialized module 'wx' has no attribute '__version__' (most likely due to a circular import)Bye
