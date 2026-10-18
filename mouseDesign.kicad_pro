@@ -469,7 +469,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -605,6 +605,60 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Indicator",
+          "name": "Indicator",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB ID",
+          "name": "JLCPCB ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Production Stage",
+          "name": "Production Stage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Rating",
+          "name": "Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Specifications",
+          "name": "Specifications",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Display",
+          "name": "Display",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -670,7 +724,7 @@
         "uuid": "873b047e-45df-4052-ac36-466f0fd78808"
       }
     ],
-    "used_designators": "J1-3,R1-10,TP1-4,D1,C1-5,Q1-2,U1-4,F1-3,#PWR2-17",
+    "used_designators": "#PWR2-31,R_ISET1,C1-6,#FLG1-10,R_CS1,R_LED1,R_PRETERM1,F1-3,C_COUT1,D\\-1,R_TS1,D+1,SCL1,VBATT1-6,VUSB1-2,R_PULLUP1-3,Ccc1,J1-3,R1-10,3V4-5,Q1-2,SDA1,D1,U1-5,TP1-4,GPIO1-2,R_PRM1",
     "variants": []
   },
   "sheets": [
