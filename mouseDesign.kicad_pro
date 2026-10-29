@@ -173,6 +173,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -184,6 +185,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -195,6 +197,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -520,8 +523,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -725,7 +728,7 @@
         "uuid": "873b047e-45df-4052-ac36-466f0fd78808"
       }
     ],
-    "used_designators": "TP1-4,R_PRM1,GPIO1-2,D1,SDA1,U1-7,3V4-5,Q1-2,F1-3,C_COUT1,D\\-1,D+1,Ccc1,J1-3,#PWR2-31,R_ISET1,C1-13,R_PULLUP1-3,#FLG1-10,R1-10,R_CS1,R_LED1,R_PRETERM1,R_TS1,SCL1,VUSB1-2,VBATT1-6",
+    "used_designators": "#FLG1-10,#PWR2-31,3V4-5,C1-13,C_COUT1,Ccc1,D1,D+1,D\\-1,F1-3,GPIO1-2,J1-3,Q1-2,R1-10,R_CS1,R_ISET1,R_LED1,R_PRETERM1,R_PRM1,R_PULLUP1-3,R_TS1,SCL1,SDA1,TP1-4,U1-7,VBATT1-6,VUSB1-2",
     "variants": []
   },
   "sheets": [

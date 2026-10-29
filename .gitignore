@@ -18,3 +18,7 @@ D:/
 ~*
 .history
 .history/
+
+_autosave-*
+*_missing3Dmodels.txt
+*_log_*.txt
